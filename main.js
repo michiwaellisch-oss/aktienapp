@@ -124,7 +124,7 @@ async function fetchQuote(symbol) {
     }
 
     const data = await response.json();
-    ^
+    
     if (!data.c) {
       console.warn(`Missing data for ${symbol}, switching to Demo Mode...`);
       enableDemoMode();
